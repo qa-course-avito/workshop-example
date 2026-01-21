@@ -7,10 +7,11 @@ test("Делаем разные штуки", async ({ page }) => {
 
     //act
     await mainPage.openMainPage();
-    await mainPage.fillSearchInput("СОБАКА")
+    //await mainPage.clickOnFirstAdv();
+    //await mainPage.fillSearchInput("СОБАКА")
     //await mainPage.openAboutPage()
 
     //assert
-    await mainPage.openMainPage();
+    //await mainPage.openMainPage();
     //await mainPage.waitForOpen();
 });

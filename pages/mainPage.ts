@@ -42,10 +42,6 @@ export class MainPage extends BasePage {
         //await this.page.goForward()
     }
 
-    async fillSearchInput(str: string) {
-        this.searchInput.fill(str);
-        await this.page.waitForTimeout(5000);
-    }
 
     async assertUserIsLoggedIn() {
         await expect(
